@@ -126,6 +126,15 @@
   padding: 10px;
 }
 
+.carousel__button__doble2 {
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  padding: 10px;
+}
+
 .carousel__button--left {
   left: 1%;
 }
@@ -153,6 +162,9 @@
   .carousel__button__doble {
     top: 50%;
   }
+  .carousel__button__doble2 {
+    top: 25%;
+  }
 
   .carousel__button {
     top: 49%;
@@ -174,6 +186,44 @@
     border: none;
     padding: 10px;
   }
+}
+
+.preview {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .95);
+  z-index: 2;
+  cursor: pointer
+}
+
+#imgPreview {
+  width: auto;
+  height: auto;
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0
+}
+
+.close-button {
+  position: absolute;
+  top: 5%;
+  left: 97%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  font-weight: bold
 }
 
 .headline {

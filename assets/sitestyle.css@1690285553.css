@@ -81,6 +81,101 @@
   padding-bottom: 100px;
 }
 
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel .slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel .slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  padding: 10px;
+}
+
+.carousel2__button {
+  position: absolute;
+  top: 16%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  padding: 10px;
+}
+
+.carousel__button__doble {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  padding: 10px;
+}
+
+.carousel__button--left {
+  left: 1%;
+}
+
+.carousel__button--right {
+  right: 3%;
+}
+
+.img-carousel:hover {
+  cursor: pointer;
+}
+
+.img-carousel {
+  width: 49% !important;
+  height: 575px;
+  margin: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .img-carousel {
+    width: 47% !important;
+    height: 161px;
+  }
+
+  .carousel__button__doble {
+    top: 50%;
+  }
+
+  .carousel__button {
+    top: 49%;
+  }
+
+  .carousel__button--left {
+    left: 1%;
+  }
+
+  .carousel__button--right {
+    right: 2%;
+  }
+
+  .carousel2__button {
+    position: absolute;
+    top: 49%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    padding: 10px;
+  }
+}
+
 .headline {
   font-size: 52px;
   letter-spacing: 0em;
@@ -2085,6 +2180,7 @@ a[href]:focus > img,
 #p5754 #r3311 {
   background-color: #f0e2a0;
   border-style: solid;
+  padding-bottom: 4% !important;
 }
 #p5754 #c7733 {
   padding-left: 0px;

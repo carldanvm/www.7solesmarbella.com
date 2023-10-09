@@ -2497,6 +2497,10 @@ a[href]:focus > img,
   padding-left: 0px;
   padding-right: 0px;
 }
+
+#c4516 {
+  height: 50vh;
+}
 #p6792 #m3904 {
   height: 400px;
   margin-bottom: 0px;
@@ -2510,6 +2514,7 @@ a[href]:focus > img,
   border-bottom-width: 2px;
   border-color: rgb(255, 255, 255);
 }
+
 #p6695 #c4699 {
   background-image: none;
   background-position: 50% 50%;
@@ -2883,6 +2888,7 @@ a[href]:focus > img,
   #p6792 #c4516 {
     padding-bottom: 0px;
   }
+
   #p6792 #m3904 {
     height: 200px;
   }

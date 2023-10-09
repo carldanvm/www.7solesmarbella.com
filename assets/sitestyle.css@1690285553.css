@@ -1999,7 +1999,7 @@ a[href]:focus > img,
   margin-left: auto;
   margin-bottom: 0px;
   margin-right: auto;
-  margin-top: -25px;
+  margin-top: 0px;
 }
 #m2857 + .hoverOverlay .hoverIcon {
   border-style: solid;

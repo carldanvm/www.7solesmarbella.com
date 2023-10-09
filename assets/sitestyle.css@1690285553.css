@@ -153,6 +153,17 @@
   margin: 4px;
 }
 
+#carousel4 .img-carousel {
+  width: 24% !important;
+  height: 350px;
+  margin: 4px;
+  padding: 1%;
+}
+
+#carousel4 .carousel__button__doble{
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .img-carousel {
     width: 46% !important;
@@ -186,7 +197,18 @@
     border: none;
     padding: 10px;
   }
+
+  #carousel4 .img-carousel {
+    width: 46% !important;
+    height: 29vh;
+    margin: 4px;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
 }
+
+
 
 .preview {
   display: none;
@@ -298,7 +320,8 @@ nav.opened-menu > ul {
   font-size: 42px;
   letter-spacing: 0em;
   line-height: 1.2em;
-  margin-bottom: 20px;
+  margin-bottom: -2%;
+  margin-top: 4%;
 }
 .preamble {
   color: #619394;
